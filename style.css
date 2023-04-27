@@ -1,0 +1,45 @@
+/*
+
+# pour les id
+. pour les classes
+
+*/
+
+html, body {
+    height: 100%;
+}
+
+main {
+    display: flex;
+    height: 100%;
+}
+
+#left-panel {
+    height: 90%;
+    flex: 1 30%;
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+}
+
+#right-panel {
+    height: 90%;
+    flex: 1 70%;
+    background-color: blanchedalmond;
+    padding: 10px;
+    border-radius: 0 20px 20px 0;
+}
+
+.titre {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.group-principaux {
+    margin-top: 30px;
+}
+
+.group-donnees {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
